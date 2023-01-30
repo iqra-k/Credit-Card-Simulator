@@ -1,1 +1,3 @@
 # Credit-Card-Simulator
+
+A credit card transaction simulator is being implemented. It tracks the balance owed on the credit card by keeping a record of purchases, interest accrued, and bill payments (which may be partial). A simple flagging algorithm is also implemented to deactivate the card in case of suspected fraud. The simulation is conducted as a series of operations, each represented by a call to a specific function. The credit card account operates under certain rules, including a 5% interest added to the amount owed every month and payments being applied to accruing interest first. The card is deactivated if used for purchases in three different countries in a row.
